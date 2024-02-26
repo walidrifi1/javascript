@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: beige;
+}
+div{
+    margin: 10px;
+}
+
+#imagen{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(img/interrogante.jpg);
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+#imagen:hover{
+    transition: 1s;
+    scale: 120%;
+    object-position: 200px;    
+
+}
