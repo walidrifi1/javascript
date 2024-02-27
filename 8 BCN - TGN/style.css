@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(198, 220, 240);
+    
+}
+#botones{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(images/linea.png);
+    background-position: center;
+    height: 150px;
+    align-items: center;
+    border-radius: 30px;
+    width: 70%;
+}
+
+input:hover{
+scale: 130%;
+background-color: rgb(38, 226, 53);
+}
+
+#img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    width: 80%;
+
+
+}
+
+
+#inicial{
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px black;
+}
+
+
+.letras{
+    padding: 2px;
+    background-color: rgba(106, 245, 255, 0.664);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    box-shadow: 0 0 10px white;
+}
+
+h4{
+    padding: 4px;
+    border-style: solid;
+}
+#restart:hover{
+    background-color: red;
+}
