@@ -1,0 +1,18 @@
+body{
+    background-color: blanchedalmond;
+}
+
+
+#resultado{
+    background-color: rgb(92, 255, 77);
+    font-size: larger;
+    box-shadow: 0px 10px 10px black;
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+input{
+    margin-left: 20px;
+    margin-top: 15px;
+}
